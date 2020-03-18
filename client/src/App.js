@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import { Route } from "react-router-dom";
 import MovieList from "./Movies/MovieList.js";
 import SavedList from "./Movies/SavedList";
-import { Route } from "react-router-dom";
 import Movie from "./Movies/Movie";
 
 const App = () => {
